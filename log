@@ -1,0 +1,498 @@
+[000:00:00:02.658.428.702][Info] ---------------------------------
+[000:00:00:02.658.517.341][Info] Initializing D3D11...
+[000:00:00:02.658.828.627][Info] Available Video Adapters: 
+[000:00:00:02.660.190.654][Info] 	Adapter 1: NVIDIA GeForce GTX 1060 3GB
+[000:00:00:02.660.265.471][Info] 	  Dedicated VRAM: 3133145088
+[000:00:00:02.660.280.194][Info] 	  Shared VRAM:    4227549184
+[000:00:00:02.660.326.766][Info] 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+[000:00:00:02.660.355.011][Info] 	Adapter 2: Intel(R) HD Graphics 630
+[000:00:00:02.660.383.555][Info] 	  Dedicated VRAM: 134217728
+[000:00:00:02.660.567.442][Info] 	  Shared VRAM:    4227549184
+[000:00:00:02.660.596.888][Info] 	  output 1: pos={1920, 8}, size={1920, 1080}, attached=true
+[000:00:00:02.660.617.921][Info] 	  output 2: pos={-1920, 8}, size={1920, 1080}, attached=true
+[000:00:00:02.662.437.262][Info] Loading up D3D11 on adapter NVIDIA GeForce GTX 1060 3GB (0)
+[000:00:00:02.702.098.297][Info] D3D11 loaded successfully, feature level used: 45056
+[000:00:00:03.485.917.609][Info] ---------------------------------
+[000:00:00:03.485.947.956][Info] video settings reset:
+[000:00:00:03.485.947.956][Info] 	base resolution:   1920x1080
+[000:00:00:03.485.947.956][Info] 	output resolution: 1280x720
+[000:00:00:03.485.947.956][Info] 	downscale filter:  Bicubic
+[000:00:00:03.485.947.956][Info] 	fps:               60/1
+[000:00:00:03.485.947.956][Info] 	format:            NV12
+[000:00:00:03.485.947.956][Info] 	YUV mode:          601/Partial
+[000:00:00:03.488.269.682][Debug] ---------------------------------
+[000:00:00:03.552.520.516][Error] Required module function 'obs_module_load' in module 'C:/Users/silva/Desktop/stream/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+[000:00:00:03.552.556.873][Debug] ---------------------------------
+[000:00:00:03.567.649.141][Debug] Loading module: coreaudio-encoder.dll
+[000:00:00:03.575.698.711][Debug] [CoreAudio encoder]: Failed loading library 'CoreAudioToolbox.dll'
+[000:00:00:03.575.729.660][Warning] [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+[000:00:00:03.575.744.082][Debug] ---------------------------------
+[000:00:00:03.593.941.099][Debug] Loading module: enc-amf.dll
+[000:00:00:03.599.136.211][Debug] [AMF] <obs_module_load> Loading...
+[000:00:00:03.642.910.369][Error] [AMF] AMF Test failed due to one or more errors.
+[000:00:00:03.642.972.266][Warning] Failed to initialize module 'enc-amf.dll'
+[000:00:00:03.642.989.693][Debug] ---------------------------------
+[000:00:00:03.689.502.027][Debug] Loading module: facemask-plugin.dll
+[000:00:00:03.694.367.224][Debug] ---------------------------------
+[000:00:00:03.709.689.051][Debug] Loading module: image-source.dll
+[000:00:00:03.715.616.407][Debug] ---------------------------------
+[000:00:00:03.833.495.286][Error] Required module function 'obs_module_load' in module 'C:/Users/silva/Desktop/stream/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/libcef.dll' not found, loading of module failed
+[000:00:00:03.833.529.239][Debug] ---------------------------------
+[000:00:00:03.900.572.033][Error] Required module function 'obs_module_load' in module 'C:/Users/silva/Desktop/stream/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+[000:00:00:03.900.622.512][Debug] ---------------------------------
+[000:00:00:03.900.646.550][Error] Required module function 'obs_module_load' in module 'C:/Users/silva/Desktop/stream/Streamlabs OBS/resources/app.asar.unpacked/node_modules/obs-studio-node/obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+[000:00:00:03.900.662.174][Debug] ---------------------------------
+[000:00:00:03.921.256.334][Debug] Loading module: obs-browser.dll
+[000:00:00:03.926.271.165][Info] [obs-browser]: Version 2.1.6
+[000:00:00:03.926.455.653][Debug] ---------------------------------
+[000:00:00:03.941.681.330][Debug] Loading module: obs-ffmpeg.dll
+[000:00:00:03.966.187.298][Info] NVENC supported
+[000:00:00:03.966.217.946][Debug] ---------------------------------
+[000:00:00:03.981.705.331][Debug] Loading module: obs-filters.dll
+[000:00:00:03.987.761.589][Debug] ---------------------------------
+[000:00:00:04.002.011.341][Debug] Loading module: obs-ndi.dll
+[000:00:00:04.010.640.817][Info] [obs-ndi] hello ! (version 4.2.2)
+[000:00:00:04.010.718.338][Error] [obs-ndi] Error when loading the library.
+[000:00:00:04.010.743.878][Warning] Failed to initialize module 'obs-ndi.dll'
+[000:00:00:04.010.778.432][Debug] ---------------------------------
+[000:00:00:04.028.143.449][Debug] Loading module: obs-outputs.dll
+[000:00:00:04.034.444.288][Debug] ---------------------------------
+[000:00:00:04.051.348.987][Debug] Loading module: obs-qsv11.dll
+[000:00:00:04.077.859.085][Debug] ---------------------------------
+[000:00:00:04.092.704.067][Debug] Loading module: obs-text.dll
+[000:00:00:04.097.495.048][Debug] ---------------------------------
+[000:00:00:04.112.639.298][Debug] Loading module: obs-transitions.dll
+[000:00:00:04.118.981.301][Debug] ---------------------------------
+[000:00:00:04.132.830.829][Debug] Loading module: obs-vst.dll
+[000:00:00:04.141.352.136][Debug] ---------------------------------
+[000:00:00:04.159.517.603][Debug] Loading module: obs-x264.dll
+[000:00:00:04.164.826.293][Debug] ---------------------------------
+[000:00:00:04.179.062.825][Debug] Loading module: rtmp-services.dll
+[000:00:00:04.184.005.543][Debug] ---------------------------------
+[000:00:00:04.201.419.236][Debug] Loading module: text-freetype2.dll
+[000:00:00:04.210.316.731][Debug] ---------------------------------
+[000:00:00:04.226.791.157][Debug] Loading module: win-capture.dll
+[000:00:00:04.232.077.913][Debug] ---------------------------------
+[000:00:00:04.247.354.669][Debug] Loading module: win-decklink.dll
+[000:00:00:04.252.818.702][Info] No blackmagic support
+[000:00:00:04.252.848.148][Debug] Failed to start search for DeckLink devices
+[000:00:00:04.252.861.669][Debug] ---------------------------------
+[000:00:00:04.270.593.259][Debug] Loading module: win-dshow.dll
+[000:00:00:04.279.499.767][Debug] ---------------------------------
+[000:00:00:04.293.345.989][Debug] Loading module: win-mf.dll
+[000:00:00:04.293.412.393][Debug] ---------------------------------
+[000:00:00:04.310.421.354][Debug] Loading module: win-wasapi.dll
+[000:00:00:04.326.878.954][Debug] service 'default_service' (rtmp_common) created
+[000:00:00:04.335.527.360][Debug] output 'simple_stream' (rtmp_output) created
+[000:00:00:04.335.642.740][Debug] obs_output_get_signal_handler: Null 'output' parameter
+[000:00:00:04.335.705.237][Debug] output 'simple_file_output' (ffmpeg_muxer) created
+[000:00:00:04.335.723.867][Error] Encoder ID 'nvenc' not found
+[000:00:00:04.335.737.989][Debug] encoder 'streaming_h264' (nvenc) created
+[000:00:00:04.336.335.321][Debug] AAC encoder bitrate mapping:
+[000:00:00:04.336.335.321][Debug] 	 64 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	 96 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	128 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	160 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	192 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	224 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	256 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	288 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	320 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	352 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	384 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	416 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	448 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	480 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	512 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	544 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	576 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	608 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	640 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	672 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	704 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	736 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	768 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	800 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	832 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	864 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	896 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	928 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	960 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	992 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.335.321][Debug] 	1024 kbit/s: 'FFmpeg Default AAC Encoder' (ffmpeg_aac)
+[000:00:00:04.336.535.434][Debug] encoder 'streaming_h264' destroyed
+[000:00:00:04.336.584.711][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:00:04.821.910.696][Debug] obs_encoder_update: Null 'encoder' parameter
+[000:00:00:04.821.978.902][Debug] encoder 'simple_h264_recording' (obs_x264) created
+[000:00:00:04.821.998.433][Debug] encoder 'simple_audio' (ffmpeg_aac) created
+[000:00:00:04.822.012.254][Debug] encoder 'simple_audio' (ffmpeg_aac) created
+[000:00:00:04.822.022.170][Info] ---------------------------------
+[000:00:00:04.822.029.682][Info] audio settings reset:
+[000:00:00:04.822.029.682][Info] 	samples per sec: 44100
+[000:00:00:04.822.029.682][Info] 	speakers:        2
+[000:00:00:04.838.828.014][Info] ---------------------------------
+[000:00:00:04.838.885.103][Info] video settings reset:
+[000:00:00:04.838.885.103][Info] 	base resolution:   1920x1080
+[000:00:00:04.838.885.103][Info] 	output resolution: 1280x720
+[000:00:00:04.838.885.103][Info] 	downscale filter:  Bicubic
+[000:00:00:04.838.885.103][Info] 	fps:               60/1
+[000:00:00:04.838.885.103][Info] 	format:            NV12
+[000:00:00:04.838.885.103][Info] 	YUV mode:          601/Partial
+[000:00:00:04.840.561.421][Debug] obs_encoder_set_audio: Null 'encoder' parameter
+[000:00:00:04.840.621.214][Debug] obs_encoder_set_audio: Null 'encoder' parameter
+[000:00:00:04.840.637.139][Info] Audio monitoring device:
+[000:00:00:04.840.637.139][Info] 	name: Default
+[000:00:00:04.840.637.139][Info] 	id: default
+[000:00:00:07.150.249.930][Debug] source '57ef95ee-3e76-4c5f-bf01-9be5e3868ebb' (cut_transition) created
+[000:00:00:07.152.700.557][Debug] source 'c0c5d1d8-8c8b-48a1-a4df-e1ddff7d4c36' (obs_stinger_transition) created
+[000:00:00:07.160.833.958][Info] [Media Source '(null)']: settings:
+[000:00:00:07.160.833.958][Info] 	input:                   C:\Users\silva\Documents\MG_Transition_DOOR_White\MG_Transition_DOOR_audio_v2_White.webm
+[000:00:00:07.160.833.958][Info] 	input_format:            (null)
+[000:00:00:07.160.833.958][Info] 	speed:                   100
+[000:00:00:07.160.833.958][Info] 	is_looping:              no
+[000:00:00:07.160.833.958][Info] 	is_hw_decoding:          yes
+[000:00:00:07.160.833.958][Info] 	is_clear_on_media_end:   yes
+[000:00:00:07.160.833.958][Info] 	restart_on_activate:     yes
+[000:00:00:07.160.833.958][Info] 	close_when_inactive:     no
+[000:00:00:07.160.909.376][Debug] private source '(null)' (ffmpeg_source) created
+[000:00:00:08.225.433.637][Info] WASAPI: Device 'Luidsprekers (2- SteelSeries Siberia 350)' initialized
+[000:00:00:08.225.616.924][Debug] source 'wasapi_output_capture_f751382d-3838-439d-a58a-f15093f69c20' (wasapi_output_capture) created
+[000:00:00:08.246.782.876][Info] WASAPI: Device 'Microfoon (Trust USB microphone)' initialized
+[000:00:00:08.246.824.341][Debug] source 'wasapi_input_capture_7ed436be-0ada-44ac-bb3f-3ddeca7abb00' (wasapi_input_capture) created
+[000:00:00:08.248.175.551][Debug] private source 'Noise Suppression' (noise_suppress_filter) created
+[000:00:00:08.248.443.269][Debug] - filter 'Noise Suppression' (noise_suppress_filter) added to source 'wasapi_input_capture_7ed436be-0ada-44ac-bb3f-3ddeca7abb00'
+[000:00:00:08.248.817.353][Debug] private source 'Noise Gate' (noise_gate_filter) created
+[000:00:00:08.249.034.593][Debug] - filter 'Noise Gate' (noise_gate_filter) added to source 'wasapi_input_capture_7ed436be-0ada-44ac-bb3f-3ddeca7abb00'
+[000:00:00:08.249.350.987][Debug] private source 'Gain' (gain_filter) created
+[000:00:00:08.249.539.381][Debug] - filter 'Gain' (gain_filter) added to source 'wasapi_input_capture_7ed436be-0ada-44ac-bb3f-3ddeca7abb00'
+[000:00:00:08.249.859.381][Debug] private source 'Compressor' (compressor_filter) created
+[000:00:00:08.250.135.211][Debug] - filter 'Compressor' (compressor_filter) added to source 'wasapi_input_capture_7ed436be-0ada-44ac-bb3f-3ddeca7abb00'
+[000:00:00:08.250.453.709][Debug] [image_source: 'image_source_3b2e3a69-24a0-429b-8987-27ece30d5ad7'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Layout.png'
+[000:00:00:08.292.307.568][Info] adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+[000:00:00:08.384.183.842][Debug] source 'image_source_3b2e3a69-24a0-429b-8987-27ece30d5ad7' (image_source) created
+[000:00:00:08.384.817.531][Debug] source 'dshow_input_d6c78fc8-82da-48b0-9ee9-14b20d59120c' (dshow_input) created
+[000:00:00:08.415.285.710][Debug] private source 'green screen' (chroma_key_filter) created
+[000:00:00:08.415.596.095][Debug] - filter 'green screen' (chroma_key_filter) added to source 'dshow_input_d6c78fc8-82da-48b0-9ee9-14b20d59120c'
+[000:00:00:08.416.172.095][Debug] source 'text_gdiplus_7af30907-862e-4813-80ec-03be6df727af' (text_gdiplus) created
+[000:00:00:08.430.771.593][Debug] private source 'Scroll' (scroll_filter) created
+[000:00:00:08.431.081.377][Debug] - filter 'Scroll' (scroll_filter) added to source 'text_gdiplus_7af30907-862e-4813-80ec-03be6df727af'
+[000:00:00:08.432.227.667][Debug] DShow: Video media type changed
+[000:00:00:08.447.622.207][Debug] DShow: Video media type changed
+[000:00:00:08.447.716.254][Info] ---------------------------------
+[000:00:00:08.447.729.174][Info] [DShow Device: 'dshow_input_d6c78fc8-82da-48b0-9ee9-14b20d59120c'] settings updated: 
+[000:00:00:08.447.729.174][Info] 	video device: C922 Pro Stream Webcam
+[000:00:00:08.447.729.174][Info] 	video path: \\?\usb#vid_046d&pid_085c&mi_00#6&1c5394bd&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+[000:00:00:08.447.729.174][Info] 	resolution: 1920x1080
+[000:00:00:08.447.729.174][Info] 	fps: 30.00 (interval: 333333)
+[000:00:00:08.447.729.174][Info] 	format: MJPEG
+[000:00:00:08.448.614.957][Debug] source 'text_gdiplus_d61bac26-ce40-45f3-88c3-11447d5ba8b5' (text_gdiplus) created
+[000:00:00:08.449.523.877][Warning] DShow: HDevice::ConnectPins: failed to connect pins (0x80040207): The owner SID on a per-user subscription doesn't exist
+
+[000:00:00:08.449.523.877][Warning] 
+[000:00:00:08.460.427.003][Debug] private source 'Scroll' (scroll_filter) created
+[000:00:00:08.460.753.313][Debug] - filter 'Scroll' (scroll_filter) added to source 'text_gdiplus_d61bac26-ce40-45f3-88c3-11447d5ba8b5'
+[000:00:00:08.461.173.368][Debug] source 'text_gdiplus_2d04b84b-853c-4e81-8047-e1f2438a17b6' (text_gdiplus) created
+[000:00:00:08.461.593.124][Debug] private source 'Scroll' (scroll_filter) created
+[000:00:00:08.461.803.152][Debug] - filter 'Scroll' (scroll_filter) added to source 'text_gdiplus_2d04b84b-853c-4e81-8047-e1f2438a17b6'
+[000:00:00:08.462.190.457][Debug] source 'text_gdiplus_6d7b6b83-1a43-4e26-a1df-ef6b65422c5c' (text_gdiplus) created
+[000:00:00:08.462.648.672][Debug] private source 'Scroll' (scroll_filter) created
+[000:00:00:08.462.886.644][Debug] - filter 'Scroll' (scroll_filter) added to source 'text_gdiplus_6d7b6b83-1a43-4e26-a1df-ef6b65422c5c'
+[000:00:00:08.463.314.512][Debug] [image_source: 'image_source_a8ac655d-a875-461b-84f2-afc80ed8570e'] loading texture 'C:\Users\silva\Documents\VBI Stream Package\VBI Stream Package\Overlays\Short Overlays\Bottom-2.png'
+[000:00:00:08.473.745.301][Debug] source 'image_source_a8ac655d-a875-461b-84f2-afc80ed8570e' (image_source) created
+[000:00:00:08.474.966.708][Debug] source 'text_gdiplus_e9ad021d-ebca-4db5-8ead-213be6049735' (text_gdiplus) created
+[000:00:00:08.494.888.117][Debug] private source 'Scroll' (scroll_filter) created
+[000:00:00:08.495.171.460][Debug] - filter 'Scroll' (scroll_filter) added to source 'text_gdiplus_e9ad021d-ebca-4db5-8ead-213be6049735'
+[000:00:00:08.495.587.309][Debug] source 'text_gdiplus_dd481ce8-e0c1-4c04-bab2-7737eb308f44' (text_gdiplus) created
+[000:00:00:08.495.964.098][Debug] private source 'Scroll' (scroll_filter) created
+[000:00:00:08.496.142.877][Debug] - filter 'Scroll' (scroll_filter) added to source 'text_gdiplus_dd481ce8-e0c1-4c04-bab2-7737eb308f44'
+[000:00:00:08.496.484.811][Debug] source 'text_gdiplus_553a9b99-5da0-42c6-a934-10a26be05556' (text_gdiplus) created
+[000:00:00:08.496.856.491][Debug] private source 'Scroll' (scroll_filter) created
+[000:00:00:08.497.040.078][Debug] - filter 'Scroll' (scroll_filter) added to source 'text_gdiplus_553a9b99-5da0-42c6-a934-10a26be05556'
+[000:00:00:08.497.382.913][Debug] source 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62' (game_capture) created
+[000:00:00:08.498.011.495][Info] [window-capture: 'window_capture_d9394572-d250-4bb5-b8ba-38f8daaff1be'] update settings:
+[000:00:00:08.498.011.495][Info] 	executable: n3DS_view(x64).exe
+[000:00:00:08.498.030.124][Debug] 	class:      nonstd-fx2view-class:00
+[000:00:00:08.498.037.335][Debug] source 'window_capture_d9394572-d250-4bb5-b8ba-38f8daaff1be' (window_capture) created
+[000:00:00:08.498.313.466][Info] [window-capture: 'window_capture_e6aaa28f-07cb-4700-b8d8-29f89563696d'] update settings:
+[000:00:00:08.498.313.466][Info] 	executable: n3DS_view(x64).exe
+[000:00:00:08.498.329.091][Debug] 	class:      nstd3dvsub
+[000:00:00:08.498.336.002][Debug] source 'window_capture_e6aaa28f-07cb-4700-b8d8-29f89563696d' (window_capture) created
+[000:00:00:08.498.701.973][Debug] source 'slideshow_96757cd8-130d-4834-979f-f4fa3fd7b8d9' (slideshow) created
+[000:00:00:08.499.080.865][Debug] source 'text_gdiplus_eb08e579-e86a-442c-8674-dd42cab87508' (text_gdiplus) created
+[000:00:00:08.499.377.127][Debug] [image_source: 'image_source_58d65e78-a586-4cfa-aef7-6b12fac81eb1'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Start.png'
+[000:00:00:08.547.266.812][Debug] private source '(null)' (fade_transition) created
+[000:00:00:08.547.516.201][Debug] [image_source: '(null)'] loading texture 'C:\Users\silva\Documents\FurretTurret_SHINY_HD_SPRITES\Beedrill.gif'
+[000:00:00:08.638.246.486][Debug] DShow: Loaded filters:
+[000:00:00:08.638.343.537][Debug] DShow: 	Capture Filter
+[000:00:00:08.638.360.364][Debug] DShow: 	MJPEG Decompressor
+[000:00:00:08.638.369.678][Debug] DShow: 	Smart Tee
+[000:00:00:08.638.379.293][Debug] DShow: 	Video Filter
+[000:00:00:08.659.134.204][Debug] source 'image_source_58d65e78-a586-4cfa-aef7-6b12fac81eb1' (image_source) created
+[000:00:00:08.912.581.187][Debug] private source '(null)' (image_source) created
+[000:00:00:08.915.943.437][Debug] [image_source: 'image_source_0acf07d4-4626-49ed-8c7f-460577d70ed4'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Logo.png'
+[000:00:00:09.018.849.035][Debug] source 'image_source_0acf07d4-4626-49ed-8c7f-460577d70ed4' (image_source) created
+[000:00:00:09.019.520.884][Debug] [image_source: 'image_source_a9df2482-27e2-4be4-98b6-db1122fcbd16'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_BRB.png'
+[000:00:00:09.180.434.166][Debug] source 'image_source_a9df2482-27e2-4be4-98b6-db1122fcbd16' (image_source) created
+[000:00:00:09.180.910.410][Debug] [image_source: 'image_source_a4dda8c3-e227-45a3-ad7f-e4fbb37dcb24'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Logo.png'
+[000:00:00:09.331.897.992][Debug] source 'image_source_a4dda8c3-e227-45a3-ad7f-e4fbb37dcb24' (image_source) created
+[000:00:00:09.332.883.531][Debug] source 'browser_source_7a12ca95-64c9-44c7-8cf2-475f70a05930' (browser_source) created
+[000:00:00:09.333.263.925][Info] [window-capture: 'window_capture_87b6d823-8a13-4e9b-b3c2-4a935fd64bc0'] update settings:
+[000:00:00:09.333.263.925][Info] 	executable: The Jackbox Party Pack 5.exe
+[000:00:00:09.333.288.564][Debug] 	class:      WinAPI_App_Window_Class
+[000:00:00:09.333.296.376][Debug] source 'window_capture_87b6d823-8a13-4e9b-b3c2-4a935fd64bc0' (window_capture) created
+[000:00:00:09.333.622.685][Info] [window-capture: 'window_capture_9f48424f-b881-42ed-8a94-1d9feae449f8'] update settings:
+[000:00:00:09.333.622.685][Info] 	executable: citra-qt.exe
+[000:00:00:09.333.647.023][Debug] 	class:      Qt5QWindowIcon
+[000:00:00:09.333.655.136][Debug] source 'window_capture_9f48424f-b881-42ed-8a94-1d9feae449f8' (window_capture) created
+[000:00:00:09.333.937.878][Debug] [image_source: 'image_source_782ea152-81f2-42e4-9ee5-a46799dd9c1e'] loading texture 'C:\Users\silva\OneDrive\Pictures\The_Hell.jpg'
+[000:00:00:09.365.201.098][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:00:09.379.935.507][Debug] source 'image_source_782ea152-81f2-42e4-9ee5-a46799dd9c1e' (image_source) created
+[000:00:00:09.380.896.408][Debug] [image_source: 'image_source_3741e97f-ed48-4233-bd31-73a0b31d2c60'] loading texture 'C:\Users\silva\Downloads\imageedit_2_8168664172.png'
+[000:00:00:09.432.304.587][Debug] source 'image_source_3741e97f-ed48-4233-bd31-73a0b31d2c60' (image_source) created
+[000:00:00:09.433.422.032][Debug] [image_source: 'image_source_3f18999c-8233-49e9-8d7e-5567d0838135'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Emblem.png'
+[000:00:00:09.464.915.412][Debug] source 'image_source_3f18999c-8233-49e9-8d7e-5567d0838135' (image_source) created
+[000:00:00:09.465.543.994][Debug] source 'game_capture_41a0b3d2-5147-40f6-89ce-d19ae45b4931' (game_capture) created
+[000:00:00:09.743.204.288][Debug] source 'scene_9ad2ecdd-d2cb-4313-9abc-dab238e0581c' (scene) created
+[000:00:00:09.746.124.849][Debug] source 'scene_73db2888-fd02-4d12-8cc8-460eae632572' (scene) created
+[000:00:00:09.747.872.979][Debug] source 'scene_a9bf7591-38a6-497a-bc3a-dd175a86219e' (scene) created
+[000:00:00:09.749.471.475][Debug] source 'scene_150beae8-4b8d-409b-a12e-9ab9b2d74f0e' (scene) created
+[000:00:00:09.751.392.374][Debug] source 'scene_93e328ad-894b-45ee-a15f-af21c0115543' (scene) created
+[000:00:00:09.816.466.494][Debug] source 'f521d9ed-f1e2-486e-9261-71886503128f' (cut_transition) created
+[000:00:00:09.816.828.860][Debug] [Media Source '(null)']: nb_frames not set, estimating using frame rate and duration
+[000:00:00:10.162.980.511][Info] WASAPI: Device 'Microfoon (Trust USB microphone)' initialized
+[000:00:00:10.163.015.064][Debug] source '61adb752-de1f-4175-96c4-bd5aeb4e3031' (wasapi_input_capture) created
+[000:00:00:10.180.982.823][Info] WASAPI: Device 'Luidsprekers (2- SteelSeries Siberia 350)' initialized
+[000:00:00:10.181.039.912][Debug] source '6b03d99a-b434-48df-9fe2-6c1c927a70bb' (wasapi_output_capture) created
+[000:00:00:10.181.642.052][Debug] source '85334668-6d08-447a-82d2-191feebf3fce' (dshow_input) created
+[000:00:00:10.182.884.192][Warning] 85334668-6d08-447a-82d2-191feebf3fce: DecodeDeviceId failed
+[000:00:00:10.182.935.873][Warning] 85334668-6d08-447a-82d2-191feebf3fce: Video configuration failed
+[000:00:00:10.251.678.421][Debug] source '61adb752-de1f-4175-96c4-bd5aeb4e3031' destroyed
+[000:00:00:10.251.724.693][Info] WASAPI: Device 'Microfoon (Trust USB microphone)' Terminated
+[000:00:00:10.253.198.495][Debug] source '6b03d99a-b434-48df-9fe2-6c1c927a70bb' destroyed
+[000:00:00:10.253.247.471][Info] WASAPI: Device 'Luidsprekers (2- SteelSeries Siberia 350)' Terminated
+[000:00:00:10.258.708.199][Debug] source '85334668-6d08-447a-82d2-191feebf3fce' destroyed
+[000:00:00:13.494.421.188][Debug] [image_source: 'image_source_a4dda8c3-e227-45a3-ad7f-e4fbb37dcb24'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Logo.png'
+[000:00:00:13.587.748.128][Debug] [image_source: 'image_source_a9df2482-27e2-4be4-98b6-db1122fcbd16'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_BRB.png'
+[000:00:00:13.707.626.029][Debug] [image_source: 'image_source_58d65e78-a586-4cfa-aef7-6b12fac81eb1'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Start.png'
+[000:00:00:13.820.491.880][Debug] [image_source: 'image_source_a8ac655d-a875-461b-84f2-afc80ed8570e'] loading texture 'C:\Users\silva\Documents\VBI Stream Package\VBI Stream Package\Overlays\Short Overlays\Bottom-2.png'
+[000:00:00:13.830.508.622][Debug] [image_source: 'image_source_3b2e3a69-24a0-429b-8987-27ece30d5ad7'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Layout.png'
+[000:00:00:13.937.231.982][Debug] private source '(null)' destroyed
+[000:00:00:13.952.475.386][Info] [Media Source '(null)']: settings:
+[000:00:00:13.952.475.386][Info] 	input:                   C:\Users\silva\Documents\MG_Transition_DOOR_White\MG_Transition_DOOR_audio_v2_White.webm
+[000:00:00:13.952.475.386][Info] 	input_format:            (null)
+[000:00:00:13.952.475.386][Info] 	speed:                   100
+[000:00:00:13.952.475.386][Info] 	is_looping:              no
+[000:00:00:13.952.475.386][Info] 	is_hw_decoding:          yes
+[000:00:00:13.952.475.386][Info] 	is_clear_on_media_end:   yes
+[000:00:00:13.952.475.386][Info] 	restart_on_activate:     yes
+[000:00:00:13.952.475.386][Info] 	close_when_inactive:     no
+[000:00:00:13.952.548.700][Debug] private source '(null)' (ffmpeg_source) created
+[000:00:00:13.972.870.034][Debug] [image_source: 'image_source_3741e97f-ed48-4233-bd31-73a0b31d2c60'] loading texture 'C:\Users\silva\Downloads\imageedit_2_8168664172.png'
+[000:00:00:14.024.228.936][Debug] [image_source: 'image_source_782ea152-81f2-42e4-9ee5-a46799dd9c1e'] loading texture 'C:\Users\silva\OneDrive\Pictures\The_Hell.jpg'
+[000:00:00:14.033.508.928][Warning] warning: deprecated pixel format used, make sure you did set range correctly
+[000:00:00:16.474.257.601][Debug] [image_source: 'image_source_3f18999c-8233-49e9-8d7e-5567d0838135'] loading texture 'C:\Users\silva\OneDrive\Pictures\TWITCHOBS\Ravers_Emblem.png'
+[000:00:01:17.989.225.475][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:00:01:17.989.290.076][Debug] encoder 'streaming_h264' destroyed
+[000:00:01:17.989.821.005][Error] Encoder ID 'none' not found
+[000:00:01:17.989.845.643][Debug] encoder 'recording_h264' (none) created
+[000:00:01:17.989.855.258][Debug] encoder 'simple_h264_recording' destroyed
+[000:00:01:18.015.746.089][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:00:01:18.015.775.235][Debug] encoder 'streaming_h264' destroyed
+[000:00:01:18.015.941.394][Error] Encoder ID 'none' not found
+[000:00:01:18.015.959.723][Debug] encoder 'recording_h264' (none) created
+[000:00:01:18.015.968.436][Debug] encoder 'recording_h264' destroyed
+[000:00:01:21.668.032.299][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:01:21.668.055.436][Debug] encoder 'streaming_h264' destroyed
+[000:00:01:21.668.252.543][Error] Encoder ID 'none' not found
+[000:00:01:21.668.270.571][Debug] encoder 'recording_h264' (none) created
+[000:00:01:21.668.280.487][Debug] encoder 'recording_h264' destroyed
+[000:00:01:21.693.814.962][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:01:21.693.843.206][Debug] encoder 'streaming_h264' destroyed
+[000:00:01:21.694.056.839][Error] Encoder ID 'none' not found
+[000:00:01:21.694.094.398][Debug] encoder 'recording_h264' (none) created
+[000:00:01:21.694.103.412][Debug] encoder 'recording_h264' destroyed
+[000:00:01:36.874.606.385][Info] ---------------------------------
+[000:00:01:36.874.667.982][Info] video settings reset:
+[000:00:01:36.874.667.982][Info] 	base resolution:   1920x1080
+[000:00:01:36.874.667.982][Info] 	output resolution: 1280x720
+[000:00:01:36.874.667.982][Info] 	downscale filter:  Bicubic
+[000:00:01:36.874.667.982][Info] 	fps:               30/1
+[000:00:01:36.874.667.982][Info] 	format:            NV12
+[000:00:01:36.874.667.982][Info] 	YUV mode:          601/Partial
+[000:00:01:36.881.391.581][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:01:36.881.437.553][Debug] encoder 'streaming_h264' destroyed
+[000:00:01:36.881.613.328][Error] Encoder ID 'none' not found
+[000:00:01:36.881.630.454][Debug] encoder 'recording_h264' (none) created
+[000:00:01:36.881.638.867][Debug] encoder 'recording_h264' destroyed
+[000:00:01:42.643.678.368][Info] ---------------------------------
+[000:00:01:42.643.830.406][Info] video settings reset:
+[000:00:01:42.643.830.406][Info] 	base resolution:   1920x1080
+[000:00:01:42.643.830.406][Info] 	output resolution: 1280x720
+[000:00:01:42.643.830.406][Info] 	downscale filter:  Lanczos
+[000:00:01:42.643.830.406][Info] 	fps:               30/1
+[000:00:01:42.643.830.406][Info] 	format:            NV12
+[000:00:01:42.643.830.406][Info] 	YUV mode:          601/Partial
+[000:00:01:42.652.026.004][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:01:42.652.054.549][Debug] encoder 'streaming_h264' destroyed
+[000:00:01:42.652.229.121][Error] Encoder ID 'none' not found
+[000:00:01:42.652.247.750][Debug] encoder 'recording_h264' (none) created
+[000:00:01:42.652.256.464][Debug] encoder 'recording_h264' destroyed
+[000:00:01:55.525.733.385][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:01:55.525.775.451][Debug] encoder 'streaming_h264' destroyed
+[000:00:01:55.525.980.972][Error] Encoder ID 'none' not found
+[000:00:01:55.526.002.305][Debug] encoder 'recording_h264' (none) created
+[000:00:01:55.526.011.319][Debug] encoder 'recording_h264' destroyed
+[000:00:01:58.221.049.191][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:01:58.221.071.125][Debug] encoder 'streaming_h264' destroyed
+[000:00:01:58.221.235.782][Error] Encoder ID 'none' not found
+[000:00:01:58.221.252.909][Debug] encoder 'recording_h264' (none) created
+[000:00:01:58.221.261.322][Debug] encoder 'recording_h264' destroyed
+[000:00:05:27.380.897.009][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] attempting to hook process: theHunterCotW_F.exe
+[000:00:05:27.385.687.089][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] using helper (compatibility hook)
+[000:00:05:27.391.750.558][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] hook not loaded yet, retrying..
+[000:00:05:30.414.370.481][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] attempting to hook process: theHunterCotW_F.exe
+[000:00:05:30.417.342.422][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] existing hook found, signaling process: theHunterCotW_F.exe
+[000:00:05:30.417.414.835][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_HookInfo2508
+[000:00:05:30.438.611.436][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:05:30.448.138.714][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:05:30.448.196.103][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture1
+[000:00:05:30.448.230.657][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:05:30.448.478.544][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:05:34.993.462.691][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:05:35.073.094.244][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:05:35.080.361.092][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:05:35.080.423.289][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture2
+[000:00:05:35.080.446.726][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:05:35.080.559.702][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:07:01.347.568.964][Debug] output 'simple_stream' destroyed
+[000:00:07:01.347.752.250][Debug] output 'simple_stream' (rtmp_output) created
+[000:00:07:01.347.811.743][Debug] encoder 'simple_audio' (ffmpeg_aac) created
+[000:00:07:01.350.157.206][Info] ---------------------------------
+[000:00:07:01.350.609.412][Warning] error:   Undefined constant or missing '(' in ''
+[000:00:07:01.350.660.792][Warning] error:   Unable to parse option value ""
+[000:00:07:01.350.675.816][Info] [NVENC encoder: 'streaming_h264'] settings:
+[000:00:07:01.350.675.816][Info] 	rate_control: CBR
+[000:00:07:01.350.675.816][Info] 	bitrate:      3500
+[000:00:07:01.350.675.816][Info] 	cqp:          0
+[000:00:07:01.350.675.816][Info] 	keyint:       60
+[000:00:07:01.350.675.816][Info] 	preset:       fast
+[000:00:07:01.350.675.816][Info] 	profile:      
+[000:00:07:01.350.675.816][Info] 	level:        auto
+[000:00:07:01.350.675.816][Info] 	width:        1280
+[000:00:07:01.350.675.816][Info] 	height:       720
+[000:00:07:01.350.675.816][Info] 	2-pass:       true
+[000:00:07:01.350.675.816][Info] 	b-frames:     2
+[000:00:07:01.350.675.816][Info] 	GPU:          0
+[000:00:07:01.350.675.816][Info] 
+[000:00:07:01.768.306.387][Info] ---------------------------------
+[000:00:07:01.768.600.547][Info] [FFmpeg aac encoder: 'simple_audio'] bitrate: 128, channels: 2, channel_layout: 3
+[000:00:07:01.768.600.547][Info] 
+[000:00:07:01.772.302.327][Info] [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-ams.twitch.tv/app...
+[000:00:07:01.804.351.576][Info] [rtmp stream: 'simple_stream'] Interface: Realtek PCIe GBE Family Controller (ethernet, 1000 mbps)
+[000:00:07:03.051.929.193][Info] [rtmp stream: 'simple_stream'] Connection to rtmp://live-ams.twitch.tv/app successful
+[000:00:07:03.052.162.958][Debug] obs_encoder_audio: Null 'encoder' parameter
+[000:00:07:03.134.732.498][Error] Encoder ID 'none' not found
+[000:00:07:03.134.768.855][Debug] encoder 'recording_h264' (none) created
+[000:00:07:03.134.778.771][Debug] encoder 'recording_h264' destroyed
+[000:00:07:05.544.384.110][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:07:05.742.719.932][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:07:05.746.743.515][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:07:05.747.749.185][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture3
+[000:00:07:05.747.816.791][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:07:05.747.936.378][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:09:09.371.807.815][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:09:09.610.262.887][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:09:09.613.631.447][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:09:09.613.745.926][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture4
+[000:00:09:09.613.816.837][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:09:09.613.961.963][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:12:34.533.460.252][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:12:34.709.549.032][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:12:34.713.434.099][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:12:34.713.530.249][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture5
+[000:00:12:34.713.563.601][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:12:34.713.762.512][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:39:42.304.788.758][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:39:42.617.662.842][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:39:42.646.971.210][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:39:42.647.045.126][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture6
+[000:00:39:42.647.068.262][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:39:42.647.204.975][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:40:58.121.604.097][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:40:58.377.488.486][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:40:58.380.632.296][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:40:58.380.740.464][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture7
+[000:00:40:58.380.765.103][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:40:58.380.885.892][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:41:01.971.197.322][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:41:02.143.025.148][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:41:02.146.692.075][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:41:02.146.759.079][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture8
+[000:00:41:02.146.783.117][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:41:02.146.914.422][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:43:53.090.597.778][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:43:53.462.887.545][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:43:53.483.724.484][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:43:53.483.792.390][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture9
+[000:00:43:53.483.822.437][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:43:53.483.975.977][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:43:55.172.941.666][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:43:55.377.176.900][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:43:55.381.345.309][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:43:55.381.440.858][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture10
+[000:00:43:55.381.470.605][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:43:55.381.672.820][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:52:07.951.757.264][Info] [rtmp stream: 'simple_stream'] User stopped the stream
+[000:00:52:07.951.832.983][Info] Output 'simple_stream': stopping
+[000:00:52:07.951.845.302][Info] Output 'simple_stream': Total frames output: 81123
+[000:00:52:07.951.853.114][Info] Output 'simple_stream': Total drawn frames: 70774 (81186 attempted)
+[000:00:52:07.951.861.828][Info] Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 10412 (12.8%)
+[000:00:52:07.951.939.048][Info] [rtmp stream: 'simple_stream'] Freeing 3 remaining packets
+[000:00:52:08.013.614.561][Warning] warning: 2 frames left in the queue on closing
+[000:00:52:10.473.874.503][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] ----------------- d3d11 capture freed ----------------
+[000:00:52:10.650.087.076][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] d3d11 shared texture capture successful
+[000:00:52:10.680.226.241][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture initializing!
+[000:00:52:10.680.321.490][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] map id: CaptureHook_Texture11
+[000:00:52:10.680.375.875][Debug] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] Starting capture
+[000:00:52:10.680.624.964][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] shared texture capture successful
+[000:00:52:16.780.662.883][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture window no longer exists, terminating capture
+[000:00:52:16.780.865.099][Info] [game-capture: 'game_capture_3350acaf-36a6-4a4b-b4f9-092540aa2b62'] capture stopped
+[000:00:56:30.700.498.298][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:56:30.700.522.937][Debug] encoder 'streaming_h264' destroyed
+[000:00:56:30.700.747.688][Error] Encoder ID 'none' not found
+[000:00:56:30.700.767.519][Debug] encoder 'recording_h264' (none) created
+[000:00:56:30.700.780.439][Debug] encoder 'recording_h264' destroyed
+[000:00:56:31.973.439.724][Debug] encoder 'streaming_h264' (ffmpeg_nvenc) created
+[000:00:56:31.973.463.160][Debug] encoder 'streaming_h264' destroyed
+[000:00:56:31.973.623.911][Error] Encoder ID 'none' not found
+[000:00:56:31.973.641.639][Debug] encoder 'recording_h264' (none) created
+[000:00:56:31.973.650.052][Debug] encoder 'recording_h264' destroyed
+[000:00:57:07.458.127.813][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:00:57:07.458.155.155][Debug] encoder 'streaming_h264' destroyed
+[000:00:57:07.458.394.930][Error] Encoder ID 'none' not found
+[000:00:57:07.458.413.258][Debug] encoder 'recording_h264' (none) created
+[000:00:57:07.458.421.972][Debug] encoder 'recording_h264' destroyed
+[000:00:57:07.475.511.158][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:00:57:07.475.537.600][Debug] encoder 'streaming_h264' destroyed
+[000:00:57:07.475.728.698][Error] Encoder ID 'none' not found
+[000:00:57:07.475.747.027][Debug] encoder 'recording_h264' (none) created
+[000:00:57:07.475.755.139][Debug] encoder 'recording_h264' destroyed
+[000:00:57:41.840.144.971][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:00:57:41.840.169.309][Debug] encoder 'streaming_h264' destroyed
+[000:00:57:41.840.327.656][Error] Encoder ID 'none' not found
+[000:00:57:41.840.345.984][Debug] encoder 'recording_h264' (none) created
+[000:00:57:41.840.354.698][Debug] encoder 'recording_h264' destroyed
+[000:00:57:41.857.973.612][Debug] encoder 'streaming_h264' (obs_x264) created
+[000:00:57:41.857.995.546][Debug] encoder 'streaming_h264' destroyed
+[000:00:57:41.858.142.175][Error] Encoder ID 'none' not found
+[000:00:57:41.858.159.302][Debug] encoder 'recording_h264' (none) created
+[000:00:57:41.858.167.715][Debug] encoder 'recording_h264' destroyed
+[000:01:00:14.056.108.419][Debug] source 'f521d9ed-f1e2-486e-9261-71886503128f' destroyed
+[000:01:00:15.565.353.857][Info] adding 46 milliseconds of audio buffering, total audio buffering is now 92 milliseconds
+[000:01:00:17.925.730.020][Info] adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds
+[000:01:00:18.887.486.299][Warning] warning: Could not update timestamps for discarded samples.
+[000:01:00:18.907.307.952][Warning] error:   Read error
+[000:01:00:39.961.285.744][Debug] [Media Source '(null)']: nb_frames not set, estimating using frame rate and duration
+[000:01:00:40.003.583.696][Debug] Timestamp for source '(null)' jumped by '3605008662732', expected value 11603774073, input value 3616612436805
+[000:01:00:43.653.555.092][Warning] warning: Could not update timestamps for discarded samples.
+[000:01:00:43.673.346.398][Warning] error:   Read error
